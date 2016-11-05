@@ -14,7 +14,7 @@
 
 # For Windows
 + 検証環境  
- + Windows 10
+ + Windows 10 x86_64
  + vc14  
 
 
