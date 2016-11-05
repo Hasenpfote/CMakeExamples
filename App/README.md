@@ -10,7 +10,7 @@
 **App/**  
 　+ **builds/**  
 　+ **sources/**  
-　- **CMakeLists.txt**  
+　+ **CMakeLists.txt**  
 
 # For Windows
 + 検証環境  
@@ -26,10 +26,6 @@
 + コマンド(CMake用作業ディレクトリで)  
  + msbuild ALL_BUILD.vcxproj /p:Configuration=[Debug|Release]  
  + msbuild INSTALL.vcxproj /p:Configuration=[Debug|Release]  
-
-
-+ ビルド/インストール後
- + cmake用作業ディレクトリ直下に bin/ が自動生成される
 
 # For Linux
 + 検証環境  
