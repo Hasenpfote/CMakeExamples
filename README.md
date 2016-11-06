@@ -19,4 +19,4 @@
 # NOTE
  + **source_group** によるグループ化  
   + Code::Blocks IDE では機能自体が無視されているようである  
-    デフォルトとして ** CMAKE_CURRENT_SOURCE_DIR ** からの相対パスとしてグループ化される  
+    デフォルトとして **CMAKE_CURRENT_SOURCE_DIR** からの相対パスとしてグループ化される  
