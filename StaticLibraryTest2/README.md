@@ -64,10 +64,10 @@
 + ソース置き場  
   StaticLibraryTest2/sources/ 以下、\*.h \*.cpp モジュール別ディレクトリなんでも  
 + 内包する外部の静的ライブラリ置き場  
-  StaticLibraryTest2/ 以下、 ライブラリ毎に配置  
+  StaticLibraryTest2/external/ 以下、 ライブラリ毎に配置  
 + ビルド時  
   + cmake用作業ディレクトリ直下の external/StaticLibrary/ に include/ が自動生成される  
   + この内容は、StaticLibrary2/external/sources/ からディレクトリ構成を維持しつつ \*.h のみを抽出したものである
-  + また、上述のパスは自動的にプロジェクトに設定を行う
+  + また、上述のパスは自動的にプロジェクトに設定される
 + ビルド/インストール後
  + cmake用作業ディレクトリ直下に bin/ が自動生成される
