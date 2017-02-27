@@ -27,6 +27,7 @@
 　　+ **foo/**  
 　　　+ **foo_test.cpp**  
 　　　+ **CMakeLists.txt**  
+　　+ **CMakeLists.txt**  
 　+ **CMakeLists.txt**  
 
 # For Windows
@@ -39,3 +40,7 @@
   + Linux Mint 18 x86_64
   + g++ 5.4.0
   + Code::Blocks IDE 13.12
+
+# 特記事項
++ **GTestExample/CMakeLists.txt** を cmake するとサブディレクトリ以下はすべて連鎖する
++ 新規テストは **GTestExample/test/CMakeLists.txt** に追加する必要がある
