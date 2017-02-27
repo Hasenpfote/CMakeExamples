@@ -28,3 +28,14 @@
 　　　+ **foo_test.cpp**  
 　　　+ **CMakeLists.txt**  
 　+ **CMakeLists.txt**  
+
+# For Windows
++ 検証環境  
+ + Windows 10 x86_64
+ + vc14  
+
+# For Linux
++ 検証環境  
+  + Linux Mint 18 x86_64
+  + g++ 5.4.0
+  + Code::Blocks IDE 13.12
